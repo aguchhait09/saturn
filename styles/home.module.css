@@ -1,0 +1,36 @@
+.carousel_caption {
+    top: 40%;
+    bottom: initial;
+    z-index: 10;
+    position: absolute;
+    padding-left: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+  }
+
+  .carousel_caption2 {
+    display: flex;
+    top: 50%;
+    bottom: initial;
+    z-index: 10;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    max-width: 50rem;
+  }
+
+  .carousel_button {
+    top: 65%;
+    bottom: initial;
+    z-index: 10;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 7%;
+  }
