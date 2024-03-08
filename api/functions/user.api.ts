@@ -11,8 +11,8 @@ export const signUpMutation = async (body: IFormInput) => {
   );
   return res;
 };
-export const loginMutation = async (body: IFormInput) => {
-  const res = await axiosInstance.post<IgetSignUpQuery>(
+export const loginMutation = async (body: any) => {
+  const res = await axiosInstance.post(
     endpoints.auth.login,
     body
   );

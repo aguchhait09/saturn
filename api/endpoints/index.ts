@@ -12,9 +12,10 @@ export const endpoints = {
   auth: {
     signup: "register",
     signUpProfile: "user/signup",
-    login:"user/login",
+    login:"magic-link",
     profileDetails: "user/profile/get",
-    profileUpdate: "user/profile/update"
+    profileUpdate: "user/profile/update",
+    magicAuth: "magic-auth"
   },
   cms: {
     about: "aboutpolicy/details",
